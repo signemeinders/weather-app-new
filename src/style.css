@@ -1,13 +1,14 @@
 body {
-  background: rgb(242, 245, 247);
+  background: rgb(247, 18, 106);
   font-family: "raleway", sans-serif;
 }
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  color: rgb(247, 18, 106);
 }
 .weather-app {
-  background: #fff;
+  background: rgb(250, 218, 229);
   padding: 20px;
   border: none;
   border-radius: 7px;
@@ -19,7 +20,6 @@ body {
   margin-right: 10 px;
 }
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -51,10 +51,12 @@ body {
 .forecast-high-temp {
   font-weight: 400;
 }
+
 h1 {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 400;
   line-height: 28px;
+  color: rgb(247, 18, 106);
 }
 li {
   list-style: none;
@@ -68,4 +70,7 @@ li:first-letter {
 ul {
   margin: 0;
   padding: 0;
+}
+small {
+  color: rgb(250, 218, 229);
 }
